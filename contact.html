@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio | Atri Mondal</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">JR★</p>
+            <span></span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav_list">
+                    <a href="blogs.html" class="nav-link">Blogs</a>
+                </li>
+                <li class="nav_list">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link active-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+<br><br><br>
+       <section id="contact">
+        <div class="top-header">
+            <h1>Contact Me</h1>
+          </div>
+    <div class="contact-container">
+        <div class="contact-box1 contact-info">
+            <div class="inner-box">
+                <h3>Don't Be Shy</h3>
+                <p>Feel free to get in touch with me. I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                <div class="contact-details">
+                    <p><strong>Address:</strong> Kolkata,West Bengal</p>
+                    <p><strong>Email:</strong> atrimondal.riju@gmail.com</p>
+                    <p><strong>Phone:</strong> (+91) 7585032847</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-box2 contact-form">
+            <div class="inner-box">
+                <P class="by" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Oops! 😅</P><br>
+                <p class="by" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Looks like this feature is on a coffee break because I didn’t get around to working on its backend. But don’t worry—I’ve got some tricks up my sleeve with Docker and Node.js! With a bit of modern magic, we’ll get this sorted out in no time. Hang tight, and let’s get this party started! 🚀🔧</p>
+                <br>
+                <form id="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>JR★</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="blogs.html">Blogs</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i><img src="pictures/facebook.jpg" alt=""></i></div>
+            <div class="icon"><i><img src="pictures/linkedin.jpg" alt=""></i></div>
+            <div class="icon"><i><img src="pictures/x.jpg" alt=""></i></div>
+            <div class="icon"><i><img src="pictures/github.jpg" alt=""></i></div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Atri Mondal</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+</body>
+</html>
