@@ -24,7 +24,7 @@ function headerShadow() {
 }
 
 // TYPING EFFECT
-const messages = ["Software Developer", "Full Stack Developer", "System Analyst"];
+const messages = ["Software Developer",  "Java Developer", "Full Stack Developer"];
 const typingSpeed = 100; // milliseconds per character
 const deletingSpeed = 50; // milliseconds per character
 const pauseBetweenMessages = 1000; // milliseconds
