@@ -1,2 +1,2 @@
 # portfolio_
-https://jrrity.github.io/portfolio_/
+https://atri-0342.github.io/portfolio_/
